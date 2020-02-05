@@ -5,6 +5,10 @@ body {
   font-size: 15px;
 }
 
+.header-container {
+  padding: 4rem 20rem;
+}
+
 .card-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -15,19 +19,22 @@ body {
 
 .first-h1 {
   text-align: center;
+  font-size: 2.4rem;
   font-weight: 200;
   color: #4c4e61;
 }
 
 .second-h1 {
   text-align: center;
+  font-size: 2.5rem;
   font-weight: 600;
   color: #4c4e61;
 }
 
 .intro {
+  padding-top: 1rem;
   text-align: center;
-  font-weight: 600;
+  font-weight: 400;
   color: #a3a5ae;
 }
 
