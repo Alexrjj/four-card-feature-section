@@ -24,11 +24,8 @@ body {
 }
 
 .cards {
-  margin: 10px;
-  padding: 10px;
-  width: 500px;
+  padding: 2rem 2.5rem 2rem 2.5rem;
   height: 250px;
-  text-align: center;
   box-shadow: 0 0 20px -0.4rem #a3a5ae;
   border: 1px solid #eee;
   border-top-width: 0.4rem;
@@ -36,11 +33,19 @@ body {
 }
 .cards h3 {
   color: #4c4e61;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 .cards p {
   color: #a3a5ae;
-  font-weight: 600;
+  font-size: 0.85rem;
+  font-weight: 400;
+  padding-top: 0.5rem;
+}
+
+.img {
+  margin-top: 3rem;
+  text-align: end;
 }
 
 .team-builder {
