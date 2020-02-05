@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,400,600&display=swap");
 body {
+  background-color: #fafafa;
   font-family: "Poppins", sans-serif;
   font-size: 15px;
 }
@@ -20,6 +21,42 @@ body {
   text-align: center;
   font-weight: 600;
   color: #a3a5ae;
+}
+
+.cards {
+  margin: 10px;
+  padding: 10px;
+  width: 500px;
+  height: 250px;
+  text-align: center;
+  box-shadow: 0 0 20px -0.4rem #a3a5ae;
+  border: 1px solid #eee;
+  border-top-width: 0.4rem;
+  border-radius: 0.5rem;
+}
+.cards h3 {
+  color: #4c4e61;
+  font-weight: 600;
+}
+.cards p {
+  color: #a3a5ae;
+  font-weight: 600;
+}
+
+.team-builder {
+  border-top-color: #ea5353;
+}
+
+.supervisor {
+  border-top-color: #45d3d3;
+}
+
+.karma {
+  border-top-color: #fcaf4a;
+}
+
+.calculator {
+  border-top-color: #549ef2;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -5,7 +5,7 @@ $poppins: 'Poppins', sans-serif
 //Primary Colors
 $red: hsl(0, 78%, 62%)
 $cyan: hsl(180, 62%, 55%)
-$oange: hsl(34, 97%, 64%)
+$orange: hsl(34, 97%, 64%)
 $blue: hsl(212, 86%, 64%)
 //Neutral Colors
 $very-dark-blue: hsl(234, 12%, 34%)
@@ -13,6 +13,7 @@ $grayish-blue: hsl(229, 6%, 66%)
 $very-light-gray: hsl(0, 0%, 98%)
 
 body
+  background-color: #fafafa
   font-family: $poppins
   font-size: 15px
 
@@ -31,3 +32,31 @@ body
   text-align: center
   font-weight: 600
   color: $grayish-blue
+
+.cards
+  margin: 10px
+  padding: 10px
+  width: 500px
+  height: 250px
+  text-align: center
+  box-shadow: 0 0 20px -0.4rem $grayish-blue
+  border: 1px solid #eee
+  border-top-width: 0.4rem
+  border-radius: .50rem
+
+  h3
+    color: $very-dark-blue
+    font-weight: 600
+
+  p
+    color: $grayish-blue
+    font-weight: 600
+
+.team-builder
+  border-top-color: $red
+.supervisor
+  border-top-color: $cyan
+.karma
+  border-top-color: $orange
+.calculator
+  border-top-color: $blue
