@@ -5,6 +5,10 @@ body {
   font-size: 15px;
 }
 
+.card-container {
+  padding-top: 3rem;
+}
+
 .first-h1 {
   text-align: center;
   font-weight: 200;
@@ -24,21 +28,24 @@ body {
 }
 
 .cards {
+  margin: 1rem;
+  background-color: white;
   padding: 2rem 2.5rem 2rem 2.5rem;
+  width: 100px;
   height: 250px;
   box-shadow: 0 0 20px -0.4rem #a3a5ae;
   border: 1px solid #eee;
-  border-top-width: 0.4rem;
+  border-top-width: 0.3rem;
   border-radius: 0.5rem;
 }
 .cards h3 {
   color: #4c4e61;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 600;
 }
 .cards p {
   color: #a3a5ae;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   font-weight: 400;
   padding-top: 0.5rem;
 }
