@@ -87,4 +87,13 @@ body {
   grid-row: 2/4;
 }
 
+.attribution {
+  color: #a3a5ae;
+  text-align: center;
+  padding: 2rem;
+}
+.attribution a {
+  color: #549ef2;
+}
+
 /*# sourceMappingURL=style.css.map */
