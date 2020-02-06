@@ -101,6 +101,9 @@ body {
     width: 70%;
     padding: 0;
   }
+  .header-container h1 {
+    font-size: 2rem;
+  }
 
   .card-container {
     margin-left: 2rem;
